@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togi Varprasad Rao | Cloud Computing</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/deco-color/48/portfolio.png">
+    <style>
+        /* CSS-ONLY Replacement for Typewriter */
+        .typewriter-text {
+            border-right: 3px solid var(--primary-color);
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: var(--primary-color);
+            }
+        }
+
+        /* Pure CSS reveal on scroll (Fallback for no JS) */
+        .reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top glass-nav">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+            <span class="gradient-text">TVR.</span>Portfolio
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#certifications">Certifications</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#achievements">Achievements</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase fs-6 px-3" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a class="btn btn-custom btn-primary-custom btn-sm mt-2 mt-lg-0" href="#contact">
+                        Hire Me
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h1 class="display-2 fw-bold mb-4">I'm <span class="gradient-text">Togi Varprasad Rao</span></h1>
+                    <h2 class="h3 mb-4">
+                        <span class="typewriter-text text-primary">Cloud Developer & Full Stack Developer</span>
+                    </h2>
+                    <p class="lead text-muted mb-5 pe-lg-5 fs-5">
+                        Building seamless digital experiences across Web and Mobile. Specialized in creating
+                        high-performance Full-Stack applications and Android solutions that users love.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#projects" class="btn btn-custom btn-primary-custom">View My Work</a>
+                        <a href="#contact" class="btn btn-custom btn-outline-custom">Let's Talk</a>
+                    </div>
+                    <div class="social-links mt-5 d-flex gap-4 fs-4">
+                        <a href="https://github.com/TOGIVARPRASADRAO" target="_blank"
+                            class="text-white opacity-75 hover-primary"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/togivarprasadrao/" target="_blank"
+                            class="text-white opacity-75 hover-primary"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="hero-img-container text-center">
+                        <div class="hero-shape-blob"></div>
+                        <img src="Vinit.jpg" alt="Togi Varprasad Rao"
+                            class="img-fluid rounded-4 border border-1 border-secondary shadow-2xl main-profile-img"
+                            style="width: 400px; height: 500px; object-fit: cover; background: #1e293b;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="glass-card p-2 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop"
+                            alt="Workspace" class="img-fluid rounded-4 shadow-lg hover-scale"
+                            style="min-height: 400px; width: 100%; object-fit: cover; background: #1e293b;">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+                    <h2 class="display-5 fw-bold mb-4">About <span class="gradient-text">Me</span></h2>
+                    <p class="text-muted mb-4 fs-5">
+                        Currently a 3rd Year B.Tech student at LPU, I specialize in the intersection of
+                        Cloud Computing. Maintaining a 6.84 CGPA, I am dedicated to developing real-world solutions
+                        that prioritize data integrity and secure cloud deployments. I enjoy the challenge of
+                        transforming intricate backend systems into secure, seamless user experiences. </p>
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="p-3 glass-card text-center h-100">
+                                <i class="fas fa-university text-primary mb-2 fs-4"></i>
+                                <h6 class="text-white mb-1">LPU</h6>
+                                <p class="small text-muted mb-0">B.Tech (CSE/IT)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 glass-card text-center h-100">
+                                <i class="fas fa-book-open text-primary mb-2 fs-4"></i>
+                                <h6 class="text-white mb-1">6th Sem</h6>
+                                <p class="small text-muted mb-0">3rd Year Student</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 glass-card text-center h-100">
+                                <i class="fas fa-graduation-cap text-primary mb-2 fs-4"></i>
+                                <h6 class="text-white mb-1">6.84 CGPA</h6>
+                                <p class="small text-muted mb-0">Current Standing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-6 col-md-6">
+                            <div class="p-3 glass-card text-center highlight-on-hover">
+                                <i class="fas fa-project-diagram text-primary mb-2 fs-4"></i>
+                                <h3 class="fw-bold text-primary mb-1">04+</h3>
+                                <p class="small text-muted mb-0">Projects Built</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="p-3 glass-card text-center highlight-on-hover">
+                                <i class="fas fa-certificate text-primary mb-2 fs-4"></i>
+                                <h3 class="fw-bold text-primary mb-1">03+</h3>
+                                <p class="small text-muted mb-0">Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="#contact" class="btn btn-custom btn-primary-custom">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1v6MijEbIc-jOc3w2N1ZLScAQAJb1SIhL/view?usp=drive_link"
+                            target="_blank" class="btn btn-custom btn-outline-custom">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">My <span class="gradient-text">Skills</span></h2>
+                <p class="text-muted">Security methodologies and tools I've mastered over the years</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card skill-card h-100 p-4">
+                        <i class="fas fa-shield-halved skill-icon"></i>
+                        <h4 class="mb-4 text-white">Soft Skills</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
+                            <span class="badge">Communication</span>
+                            <span class="badge">Teamwork</span>
+                            <span class="badge">Problem Solving</span>
+                            <span class="badge">Critical thinking</span>
+                            <span class="badge">Leadership</span>
+                            <span class="badge">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card skill-card h-100 p-4">
+                        <i class="fas fa-screwdriver-wrench skill-icon"></i>
+                        <h4 class="mb-4 text-white">Cloud Tools</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
+                            <span class="badge">AWS</span>
+                            <span class="badge">Azure</span>
+                            <span class="badge">GCP</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card skill-card h-100 p-4">
+                        <i class="fas fa-network-wired skill-icon"></i>
+                        <h4 class="mb-4 text-white">Infrastructure</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
+                            <span class="badge">Network Security</span>
+                            <span class="badge">Cloud Security</span>
+                            <span class="badge">Firewall</span>
+                            <span class="badge">C++</span>
+                            <span class="badge">DSA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Recent <span class="gradient-text">Projects</span></h2>
+                <p class="text-muted">A showcase of my recent work across web and mobile platforms</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1: Serverless Event-Driven Image Processing Pipeline -->
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="glass-card project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070&auto=format&fit=crop"
+                                alt="Serverless Event-Driven Image Processing Pipeline" class="project-img">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="fw-bold text-white">Serverless Event-Driven Image Processing Pipeline</h5>
+                            <p class="small text-muted mb-3">A serverless architecture for processing images in real-time based on events.</p>
+                            <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-sm btn-outline-custom">GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Real-Time Serverless Chat Application  -->
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="glass-card project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop"
+                                alt="Real-Time Serverless Chat Application " class="project-img">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="fw-bold text-white">Real-Time Serverless Chat Application </h5>
+                            <p class="small text-muted mb-3">A real-time chat application built on a serverless architecture for seamless communication.</p>
+                            <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-sm btn-outline-custom">GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: RealTime Process Monitor -->
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="glass-card project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070&auto=format&fit=crop"
+                                alt="RealTime Process Monitor" class="project-img">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="fw-bold text-white">RealTime Process Monitor</h5>
+                            <p class="small text-muted mb-3">A real-time dashboard for monitoring system processes, CPU
+                                usage, and memory consumption.</p>
+                            <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-sm btn-outline-custom">GitHub</a>
+                            <a href="#" class="btn btn-sm btn-primary-custom">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Certifications Section -->
+<section id="certifications" class="py-5">
+    <div class="container py-5">
+
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">
+                My <span class="gradient-text">Certifications</span>
+            </h2>
+            <p class="text-muted">Professional certifications and learning milestones</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Certification 1 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="glass-card p-4 text-center h-100">
+
+                    <i class="fas fa-award text-primary fs-1 mb-3"></i>
+
+                    <h5 class="fw-bold text-white">
+                        Oracle Cloud Infrastructure 2025 Certified DevOps Professional
+                    </h5>
+
+                    <p class="text-muted small">
+                        Certification validating expertise in DevOps practices,
+                        CI/CD pipelines, and automation on Oracle Cloud Infrastructure.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-2 mt-3">
+                        <span class="badge">DevOps</span>
+                        <span class="badge">Cloud</span>
+                        <span class="badge">OCI</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card p-4 text-center h-100">
+
+                    <i class="fas fa-certificate text-primary fs-1 mb-3"></i>
+
+                    <h5 class="fw-bold text-white">
+                        Oracle Cloud Infrastructure 2025 Architect Associate
+                    </h5>
+
+                    <p class="text-muted small">
+                        Certification focused on designing scalable and secure
+                        cloud solutions using Oracle Cloud Infrastructure services.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-2 mt-3">
+                        <span class="badge">Architecture</span>
+                        <span class="badge">Cloud</span>
+                        <span class="badge">OCI</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-card p-4 text-center h-100">
+
+                    <i class="fas fa-code text-primary fs-1 mb-3"></i>
+
+                    <h5 class="fw-bold text-white">
+                        Data Structures and Algorithms in C++
+                    </h5>
+
+                    <p class="text-muted small">
+                        Completed advanced coursework on Data Structures
+                        and Algorithms using C++ from CipherSchools.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-2 mt-3">
+                        <span class="badge">DSA</span>
+                        <span class="badge">C++</span>
+                        <span class="badge">Programming</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Achievements Section -->
+<section id="achievements" class="py-5 bg-dark">
+    <div class="container py-5">
+
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">
+                My <span class="gradient-text">Achievements</span>
+            </h2>
+            <p class="text-muted">Milestones that reflect my dedication and growth</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Achievement 1 -->
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="glass-card p-4 h-100 d-flex align-items-start gap-3">
+
+                    <i class="fas fa-trophy text-warning fs-2"></i>
+
+                    <div>
+                        <h5 class="text-white fw-bold">
+                            Smart India Hackathon Finalist
+                        </h5>
+
+                        <p class="text-muted mb-0">
+                            Secured <strong>Top 10 position</strong> among 
+                            <strong>100+ teams</strong> and 
+                            <strong>1000+ students</strong>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card p-4 h-100 d-flex align-items-start gap-3">
+
+                    <i class="fas fa-microphone text-primary fs-2"></i>
+
+                    <div>
+                        <h5 class="text-white fw-bold">
+                            Conference Speaker
+                        </h5>
+
+                        <p class="text-muted mb-0">
+                            Speaker at <strong>IECON24</strong> and 
+                            <strong>IECON25</strong> sharing insights on technology and innovation.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-card p-4 h-100 d-flex align-items-start gap-3">
+
+                    <i class="fas fa-users text-success fs-2"></i>
+
+                    <div>
+                        <h5 class="text-white fw-bold">
+                            Team Leadership
+                        </h5>
+
+                        <p class="text-muted mb-0">
+                            Team Lead in <strong>L’Oreal Sustainability Challenge</strong> managing
+                            <strong>50+ student volunteers</strong>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Achievement 4 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="glass-card p-4 h-100 d-flex align-items-start gap-3">
+
+                    <i class="fas fa-cloud text-info fs-2"></i>
+
+                    <div>
+                        <h5 class="text-white fw-bold">
+                            Google Cloud Skills
+                        </h5>
+
+                        <p class="text-muted mb-0">
+                            Secured <strong>Advanced Milestone</strong> in 
+                            <strong>Google Arcade</strong> and gained hands-on 
+                            experience in Google Cloud technologies.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Co-Curricular & Hobbies Section -->
+<section id="cocurricular" class="py-5">
+    <div class="container py-5">
+
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">
+                Co-Curricular & <span class="gradient-text">Hobbies</span>
+            </h2>
+            <p class="text-muted">Activities that shape my discipline, teamwork, and personal growth</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- NCC -->
+            <div class="col-lg-6" data-aos="fade-up">
+                <div class="glass-card p-4 h-100 d-flex gap-3">
+
+                    <i class="fas fa-medal text-warning fs-2"></i>
+
+                    <div>
+                        <h5 class="fw-bold text-white">NCC Cadet</h5>
+                        <p class="text-muted mb-0">
+                            Completed <strong>3 years of NCC training</strong> and achieved 
+                            <strong>Alpha Grading</strong>, demonstrating leadership, discipline,
+                            and commitment to service.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Football -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card p-4 h-100 d-flex gap-3">
+
+                    <i class="fas fa-futbol text-success fs-2"></i>
+
+                    <div>
+                        <h5 class="fw-bold text-white">State Level Football Player</h5>
+                        <p class="text-muted mb-0">
+                            Represented my state in football competitions, showcasing teamwork,
+                            strategic thinking, and dedication to sports.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Hobbies -->
+        <div class="text-center mt-5 mb-4">
+            <h3 class="fw-bold">
+                My <span class="gradient-text">Hobbies</span>
+            </h3>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+
+            <div class="col-md-3 text-center" data-aos="zoom-in">
+                <div class="glass-card p-3">
+                    <i class="fas fa-swimmer text-info fs-3 mb-2"></i>
+                    <p class="mb-0 text-muted">Swimming</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="glass-card p-3">
+                    <i class="fas fa-music text-primary fs-3 mb-2"></i>
+                    <p class="mb-0 text-muted">Listening Music & Vibing</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="200">
+                <div class="glass-card p-3">
+                    <i class="fas fa-futbol text-success fs-3 mb-2"></i>
+                    <p class="mb-0 text-muted">Playing Football</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300">
+                <div class="glass-card p-3">
+                    <i class="fas fa-brain text-warning fs-3 mb-2"></i>
+                    <p class="mb-0 text-muted">Self Analysis</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                    <h2 class="display-5 fw-bold mb-4">Get in <span class="gradient-text">Touch</span></h2>
+                    <p class="text-muted mb-5 fs-5">Have a project in mind? Let's talk about how I can help you build
+                        something amazing.</p>
+                    <div class="d-flex mb-4 highlight-on-hover">
+                        <div class="me-4 text-primary fs-3"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h5 class="text-white">Email</h5>
+                            <p class="text-muted mb-0">Varprasadrao2005@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4 highlight-on-hover">
+                        <div class="me-4 text-primary fs-3"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h5 class="text-white">Phone</h5>
+                            <p class="text-muted mb-0">+91 7973052497</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="glass-card p-4 p-md-5">
+                        <form class="contact-form">
+                            <div class="row g-4">
+                                <div class="col-md-6"><input type="text" class="form-control" placeholder="Your Name"
+                                        required></div>
+                                <div class="col-md-6"><input type="email" class="form-control" placeholder="Your Email"
+                                        required></div>
+                                <div class="col-12"><textarea class="form-control" rows="5" placeholder="Your Message"
+                                        required></textarea></div>
+                                <div class="col-12"><button type="submit"
+                                        class="btn btn-custom btn-primary-custom w-100 py-3">Send Message</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary border-opacity-10 text-center">
+        <div class="container">
+            <h3 class="fw-bold mb-4"><span class="gradient-text">TVS.</span>Portfolio</h3>
+            <div class="d-flex justify-content-center gap-4 mb-4 fs-4">
+                <a href="https://github.com/TOGIVARPRASADRAO" target="_blank" class="text-muted hover-primary"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/togivarprasadrao/" target="_blank"
+                    class="text-muted hover-primary"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-muted mb-0">&copy; 2024 Togi Varprasad Rao. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
