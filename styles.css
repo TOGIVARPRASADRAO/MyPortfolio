@@ -262,6 +262,7 @@ h4 {
     opacity: 1;
 }
 
+
 /* Contact */
 .contact-form .form-control {
     background: var(--bg-dark);
@@ -398,4 +399,65 @@ section h2 {
 
 [data-aos].aos-animate {
     pointer-events: auto;
+}
+
+/* CLICKABLE CERTIFICATION FIX */
+.cert-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    display: block;
+}
+
+.cert-link * {
+    text-decoration: none !important;
+}
+
+.cert-link:hover,
+.cert-link:focus,
+.cert-link:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+/* OPTIONAL PREMIUM HOVER EFFECT */
+.cert-link:hover .glass-card {
+    transform: translateY(-10px) scale(1.02);
+    border-color: var(--primary-color);
+    box-shadow: 0 25px 50px -12px rgba(56, 189, 248, 0.3);
+    cursor: pointer;
+}
+
+/* Make input text white */
+.contact-form .form-control {
+    color: #ffffff !important;
+}
+
+/* Placeholder text (Your Name, Your Email, etc.) */
+.contact-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* When user types (focus state) */
+.contact-form .form-control:focus {
+    color: #ffffff !important;
+}
+
+/* FIX HOBBIES SECTION OVERFLOW + SPACING */
+#cocurricular {
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+
+/* MAKE ALL CARDS SAME HEIGHT */
+#cocurricular .glass-card {
+    height: 100%;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ADD SPACE BEFORE CONTACT SECTION */
+#contact {
+    margin-top: 80px;
 }
